@@ -23,13 +23,13 @@ const Greetings = () => {
           applications with JavaScript / Reactjs / TailWindCSS / Bootstrap and
           some other cool libraries and frameworks.
         </p>
-        <div className="flex text-3xl space-x-8 ">
+        <div className="flex text-2xl items-center space-x-8 ">
           <ContactButton />
-          <ReseumeButton/>
+          <ReseumeButton />
         </div>
       </div>
       <div>
-      {/* <div className="w-fit m-[16px] p-[20px]"> */}
+        {/* <div className="w-fit m-[16px] p-[20px]"> */}
         <Lottie animationData={Animation} />
       </div>
     </div>
