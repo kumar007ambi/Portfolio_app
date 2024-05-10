@@ -23,7 +23,7 @@ const Greetings = () => {
           applications with JavaScript / Reactjs / TailWindCSS / Bootstrap and
           some other cool libraries and frameworks.
         </p>
-        <div className="flex text-2xl space-x-8 ">
+        <div className="flex text-3xl space-x-8 ">
           <ContactButton />
           <ReseumeButton/>
         </div>
