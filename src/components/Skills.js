@@ -14,6 +14,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 
+
 const Skills = () => {
   return (
     <>
@@ -22,7 +23,7 @@ const Skills = () => {
           <Lottie animationData={codingPerson} />
         </div>
         <div className=" w-6/12">
-          <div>
+          <div className="items-center">
             <h1>What I do</h1>
             <h1>FRONTEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</h1>
           </div>
