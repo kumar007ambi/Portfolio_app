@@ -23,7 +23,7 @@ const Skills = () => {
           <Lottie animationData={codingPerson} />
         </div>
         <div className=" w-6/12">
-          <div className="items-center">
+          <div className="items-center bold">
             <h1>What I do</h1>
             <h1>FRONTEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</h1>
           </div>
