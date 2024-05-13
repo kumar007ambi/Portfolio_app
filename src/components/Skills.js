@@ -14,7 +14,6 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 
-
 const Skills = () => {
   return (
     <>
@@ -23,47 +22,49 @@ const Skills = () => {
           <Lottie animationData={codingPerson} />
         </div>
         <div className=" w-6/12">
-          <div className="items-center bold">
-            <h1>What I do</h1>
-            <h1>FRONTEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</h1>
+          <div className="items-center font-bold">
+            <h1 className="p-2 m-2 text-6xl">What I do</h1>
+            <h1 className="p-2 m-2 text-4xl text-blue-400">
+              FRONTEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK
+            </h1>
           </div>
           <div>
-            <ul className="flex flex-wrap">
+            <ul className="p-2 m-2 items-center flex flex-wrap ">
               <li>
-                <FaHtml5 className="h-24 w-24" />
+                <FaHtml5 className="text-slate-400 hover:text-slate-800 h-24 w-24" />
               </li>
               <li>
-                <FaCss3Alt className="h-24 w-24" />
+                <FaCss3Alt className="text-slate-400 hover:text-slate-800 h-24 w-24" />
               </li>
               <li>
-                <RiJavascriptFill className="h-24 w-24" />
+                <RiJavascriptFill className="text-slate-400 hover:text-slate-800 h-24 w-24" />
               </li>
               <li>
-                <FaReact className="h-24 w-24" />
+                <FaReact className="text-slate-400 hover:text-slate-800 h-24 w-24" />
               </li>
               <li>
-                <FaBootstrap className="h-24 w-24" />
+                <FaBootstrap className="text-slate-400 hover:text-slate-800 h-24 w-24" />
               </li>
               <li>
-                <RiTailwindCssFill className="h-24 w-24" />
+                <RiTailwindCssFill className="text-slate-400 hover:text-slate-800 h-24 w-24" />
               </li>
               <li>
-                <FaGitAlt className="h-24 w-24" />
+                <FaGitAlt className="text-slate-400 hover:text-slate-800 h-24 w-24" />
               </li>
               <li>
-                <FaGithub className="h-24 w-24" />
+                <FaGithub className="text-slate-400 hover:text-slate-800 h-24 w-24" />
               </li>
               <li>
-                <FaNodeJs className="h-24 w-24" />
+                <FaNodeJs className="text-slate-400 hover:text-slate-800 h-24 w-24" />
               </li>
               <li>
-                <DiMysql className="h-24 w-24" />
+                <DiMysql className="text-slate-400 hover:text-slate-800 h-24 w-24" />
               </li>
               <li>
-                <SiMongodb className="h-24 w-24" />
+                <SiMongodb className="text-slate-400 hover:text-slate-800 h-24 w-24" />
               </li>
               <li>
-                <SiPostman className="h-24 w-24" />
+                <SiPostman className="text-slate-400 hover:text-slate-800  h-24 w-24" />
               </li>
             </ul>
           </div>
