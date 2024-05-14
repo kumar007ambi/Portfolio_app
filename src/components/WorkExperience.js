@@ -34,11 +34,7 @@ const WorkExperience = () => {
         {workExperiences.experience.map((item, i) => {
           return (
             <div key={i} className="w-96">
-              {/* <h1>{item.role}</h1>
-              <img src={item.companylogo} alt="Company Logo" />
-              <h1>{item.company}</h1>
-              <h1>{item.date}</h1>
-              <h1>{item.desc}</h1> */}
+              
               <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
                 <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <img
