@@ -3,25 +3,24 @@ import React from "react";
 const workExperiences = {
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "FrontEnd Developer",
+      company: "Tata Consultancy Services",
       companylogo: require("../components/assets/company/TCS.png"),
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: " Currently member of Frontend team which deals with a Government Project (Passport Seva) which is maintained by Ministry of External of Affairs.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Implemented new features and enhancements for the client’s web application, ensuring functionality aligned with business requirements which leads to increase app’s performance by 30%.",
+        " Optimized existing codebase, resulting in a 20% improvement in application performance.",
       ],
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "FrontEnd Developer",
+      company: "Webgen Technologies ",
       companylogo: require("../components/assets/company/WEBGEN.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      date: "May 2021 – Aug 2021",
+      desc: "Designed and developed a full‑stack application from scratch, enabling user registration, login, and personalized dashboards. (Keywords: Full‑Stack, application development, user management).",
+      descBullets: [
+        "Successfully integrated the Stripe API to streamline the payment process within the application. (Keywords: API integration, Stripe, payment processing).",
       ],
     },
   ],
@@ -30,11 +29,10 @@ const workExperiences = {
 const WorkExperience = () => {
   return (
     <>
-      <div className="flex flex-wrap">
+      <div className="items-center flex flex-wrap">
         {workExperiences.experience.map((item, i) => {
           return (
-            <div key={i} className="w-96">
-              
+            <div key={i} className="w-[500px] m-2 p-2 ">
               <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
                 <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <img
@@ -53,7 +51,7 @@ const WorkExperience = () => {
                   <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                     {item.desc}
                   </p>
-                   <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                  <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                     {item.descBullets}
                   </p>
                 </div>
