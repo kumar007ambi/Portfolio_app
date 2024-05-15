@@ -32,7 +32,7 @@ const WorkExperience = () => {
       <div className="items-center flex flex-wrap">
         {workExperiences.experience.map((item, i) => {
           return (
-            <div key={i} className="w-[500px] m-2 p-2 ">
+            <div key={i} className="w-[500px] m-3 p-2 ">
               <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
                 <div class="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                   <img
