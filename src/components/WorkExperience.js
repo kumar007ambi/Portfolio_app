@@ -32,7 +32,7 @@ const WorkExperience = () => {
         {workExperiences.experience.map((item, i) => {
           return (
             <div key={i} className="">
-              <div  className="bg-cyan-300 w-[400px] ">
+              <div  className="bg-cyan-400 w-[400px] ">
                 <p className="font-bold text-xl">{item.company}</p>
                 <div className="w-"><img src={item.companylogo} alt="company-logo" /></div>
                 <p>{item.role}</p>
