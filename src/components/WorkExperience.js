@@ -31,10 +31,10 @@ const WorkExperience = () => {
       <div className="flex justify-evenly ">
         {workExperiences.experience.map((item, i) => {
           return (
-            <div key={i} className="">
-              <div  className="bg-cyan-300 w-[400px] ">
+            <div key={i} className="p-6 m-2 shadow-slate-950">
+              <div  className="bg-green-200 rounded-xl shadow-lg shadow-indigo-400/40 hover:shadow-indigo-800/80 w-[400px] ">
                 <p className="font-bold text-xl text-center">{item.company}</p>
-                <div className="flex justify-center items-center rounded-xl"><img src={item.companylogo} alt="company-logo" /></div>
+                <div className="flex justify-center items-center "><img className="rounded-xl" src={item.companylogo} alt="company-logo" /></div>
                 <p className="text-center font-bold text-xl antialiased">{item.role}</p>
                 <p className="text-center text-lg">{item.date}</p>
                 <p className="font-serif text-pretty">- {item.desc}</p>
