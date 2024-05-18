@@ -8,11 +8,12 @@ import { FaReact } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+// import { FaGithub } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
+import { SiRedux } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -52,7 +53,7 @@ const Skills = () => {
                 <FaGitAlt className="text-slate-400 hover:text-slate-800 h-24 w-24" />
               </li>
               <li>
-                <FaGithub className="text-slate-400 hover:text-slate-800 h-24 w-24" />
+                <SiRedux className="text-slate-400 hover:text-slate-800 h-24 w-24" />
               </li>
               <li>
                 <FaNodeJs className="text-slate-400 hover:text-slate-800 h-24 w-24" />
