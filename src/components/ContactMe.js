@@ -10,7 +10,7 @@ const ContactMe = () => {
     <>
       <div className="flex justify-center">
         <h1 className="text-center font-bold text-5xl">Contact Me</h1>
-        <p className="text-5xl text-red-600 p-2">
+        <p className="text-5xl text-red-500 p-2">
           <GiRotaryPhone />
         </p>
       </div>
