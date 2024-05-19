@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FaTwitter } from "react-icons/fa";
 
-const ContactMe = () => {
+export function ContactMe() {
   return (
     <>
       <div className="flex justify-center">
@@ -15,18 +15,18 @@ const ContactMe = () => {
         </p>
       </div>
       <div className="">
-        <ul className="">
+        <ul className="flex flex-wrap justify-center m-4 p-4 space-x-4">
           <li>
-            <FaGithub />
+            <FaGithub className="text-slate-400 hover:text-slate-800 h-24 w-24"/>
+          </li>
+          <li >
+            <FaLinkedin className="text-slate-400 hover:text-slate-800 h-24 w-24"/>
+          </li>
+          <li >
+            <SiGmail className="text-slate-400 hover:text-slate-800 h-24 w-24"/>
           </li>
           <li>
-            <FaLinkedin />
-          </li>
-          <li>
-            <SiGmail />
-          </li>
-          <li>
-            <FaTwitter />
+            <FaTwitter className="text-slate-400 hover:text-slate-800 h-24 w-24"/>
           </li>
         </ul>
       </div>
@@ -34,4 +34,3 @@ const ContactMe = () => {
   );
 };
 
-export default ContactMe;

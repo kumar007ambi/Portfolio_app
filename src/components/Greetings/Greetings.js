@@ -1,11 +1,11 @@
 import React from "react";
-import Animation from "../components/assets/images/Animation - 1715094740022.json";
-import WaveAnimation from "../components/assets/images/WaveAnimation - 1715256921577.json";
+import Animation from "../assets/images/Animation - 1715094740022.json";
+import WaveAnimation from "../assets/images/WaveAnimation - 1715256921577.json";
 import Lottie from "lottie-react";
-import ContactButton from "./ContactButton";
-import ReseumeButton from "./ReseumeButton";
+import ContactButton from "../Contact/ContactButton";
+import ReseumeButton from "../Contact/ReseumeButton";
 
-const Greetings = () => {
+export function Greetings() {
   const style = {
     width: 80,
   };
@@ -36,4 +36,4 @@ const Greetings = () => {
   );
 };
 
-export default Greetings;
+

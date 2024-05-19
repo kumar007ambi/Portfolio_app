@@ -5,7 +5,7 @@ const workExperiences = {
     {
       role: "FrontEnd Developer",
       company: "Tata Consultancy Services",
-      companylogo: require("../components/assets/company/TCS.png"),
+      companylogo: require("../assets/company/TCS.png"),
       date: "Feb 2022 – Present",
       desc: " Currently member of Frontend team which deals with a Government Project (Passport Seva) which is maintained by Ministry of External of Affairs.",
       descBullets: [
@@ -15,7 +15,7 @@ const workExperiences = {
     {
       role: "FrontEnd Developer",
       company: "WebGen Technologies ",
-      companylogo: require("../components/assets/company/WEBGEN.jpg"),
+      companylogo: require("../assets/company/WEBGEN.jpg"),
       date: "May 2021 – Aug 2021",
       desc: "Designed and developed a full‑stack application from scratch, enabling user registration, login, and personalized dashboards. (Keywords: Full‑Stack, application development, user management).",
       descBullets: [
@@ -25,7 +25,7 @@ const workExperiences = {
   ],
 };
 
-const WorkExperience = () => {
+export function WorkExperience () {
   return (
     <>
       <div className="flex justify-evenly ">
@@ -48,4 +48,4 @@ const WorkExperience = () => {
   );
 };
 
-export default WorkExperience;
+

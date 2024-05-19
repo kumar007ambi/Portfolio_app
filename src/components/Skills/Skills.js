@@ -1,6 +1,6 @@
 import Lottie from "lottie-react";
 import React from "react";
-import codingPerson from "../components/assets/images/codingPerson.json";
+import codingPerson from "../assets/images/codingPerson.json";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
@@ -15,7 +15,7 @@ import { SiMongodb } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 
-const Skills = () => {
+export function Skills(){
   return (
     <>
       <div className="flex">
@@ -75,4 +75,3 @@ const Skills = () => {
   );
 };
 
-export default Skills;

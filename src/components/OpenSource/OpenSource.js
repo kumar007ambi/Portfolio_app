@@ -4,28 +4,28 @@ const openSourceContribution = {
   projectsContribution: [
     {
       title: "Social Winter Of Code Season 4",
-      logo: require("../components/assets/openSource/SWOC4.png"),
+      logo: require("../assets/openSource/SWOC4.png"),
       date: "Jan 2024 – Feb 2024",
     },
     {
       title: "Hacktoberfest 2023",
-      logo: require("../components/assets/openSource/HACTOBERFEST2023.jpg"),
+      logo: require("../assets/openSource/HACTOBERFEST2023.jpg"),
       date: "Oct 2023 – Oct 2023",
     },
     {
       title: "Social Summer of Code 2023",
-      logo: require("../components/assets/openSource/SWOC2.png"),
+      logo: require("../assets/openSource/SWOC2.png"),
       date: "June 2023 – July 2023",
     },
     {
       title: "GirlScript Summer of Code 2023",
-      logo: require("../components/assets/openSource/GSSOC2023.png"),
+      logo: require("../assets/openSource/GSSOC2023.png"),
       date: "May 2023– Aug 2023",
     },
   ],
 };
 
-const OpenSource = () => {
+export function OpenSource() {
   return (
     <>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2   justify-evenly ">
@@ -45,4 +45,3 @@ const OpenSource = () => {
   )
 }
 
-export default OpenSource

@@ -4,22 +4,23 @@ const projects = {
   project: [
     {
       projectTitle: "Netflix Movie Suggestor",
-      projectlogo: require("../components/assets/projectImages/Netflix.PNG"),
+      projectlogo: require("../assets/projectImages/Netflix.PNG"),
       desc: "A movie suggestion app, made with the help of React and TaiwindCSS, for movies geminiAI API is integrated for suggestion and login Firebase is used.",
     },
     {
       projectTitle: "Shortest Path Finder",
-      projectlogo: require("../components/assets/projectImages/Dijkstra.PNG"),
+      projectlogo: require("../assets/projectImages/Dijkstra.PNG"),
       desc: "Shortest Path Finder with the help if Dijkstra's algorithm, made it with the help of react library,used noramal css for styling and normal js functions.",
     },
     {
       projectTitle: "Swiggy Clone",
-      projectlogo: require("../components/assets/projectImages/Swiggy.PNG"),
+      projectlogo: require("../assets/projectImages/Swiggy.PNG"),
       desc: "Swiggy clone with the help of Live API of Swiggy food delivering App. React,TailwindCSS and redxutoolkit is used to build this project.",
     },
   ],
 };
-const Projects = () => {
+
+export function Projects () {
   return (
     <>
       <div className="flex justify-evenly ">
@@ -39,4 +40,3 @@ const Projects = () => {
   )
 }
 
-export default Projects
