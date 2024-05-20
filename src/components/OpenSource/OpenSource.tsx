@@ -28,7 +28,7 @@ const openSourceContribution = {
 export function OpenSource() {
   return (
     <>
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2   justify-evenly ">
+      <div id="opensource" className="h-[500px] grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2   justify-evenly ">
         {openSourceContribution.projectsContribution.map((item, i) => {
           return (
             <div key={i} className="p-2 m-2 shadow-slate-950">

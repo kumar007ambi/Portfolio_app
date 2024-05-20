@@ -1,8 +1,10 @@
+import React from "react";
 import { Header } from "../src/components/Header/Header";
 import { Main } from "../src/components/Main/Main";
 import { Footer } from "../src/components/Footer/Footer";
 
-export default function App() {
+
+function App() {
   return (
     <>
       <Header></Header>
@@ -11,3 +13,6 @@ export default function App() {
     </>
   );
 }
+
+export default App;
+

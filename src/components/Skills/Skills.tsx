@@ -18,7 +18,7 @@ import { SiRedux } from "react-icons/si";
 export function Skills(){
   return (
     <>
-      <div className="flex">
+      <div id="skills" className="flex h-[600px]">
         <div className="w-6/12">
           <Lottie animationData={codingPerson} />
         </div>

@@ -4,13 +4,14 @@ import WaveAnimation from "../assets/images/WaveAnimation - 1715256921577.json";
 import Lottie from "lottie-react";
 import ContactButton from "../Contact/ContactButton";
 import ReseumeButton from "../Contact/ReseumeButton";
+// import ScrollAnimation from "react-animate-on-scroll";
 
 export function Greetings() {
   const style = {
     width: 80,
   };
   return (
-    <div className="flex ">
+    <div id="greetings" className="flex h-[400px">
       <div className="w-fit  text-5xl m-[25px] p-[70px]">
         <p className="text-6xl">
           Hi all, I'm Ambika
@@ -29,11 +30,8 @@ export function Greetings() {
         </div>
       </div>
       <div>
-        {/* <div className="w-fit m-[16px] p-[20px]"> */}
-        <Lottie animationData={Animation} />
+          <Lottie animationData={Animation} />
       </div>
     </div>
   );
-};
-
-
+}

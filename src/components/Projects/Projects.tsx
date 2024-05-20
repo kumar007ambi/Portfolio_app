@@ -23,7 +23,7 @@ const projects = {
 export function Projects () {
   return (
     <>
-      <div className="flex justify-evenly ">
+      <div id="projects" className="flex justify-evenly h-[500px]">
         {projects.project.map((item, i) => {
           return (
             <div key={i} className="p-6 m-2 shadow-slate-950">

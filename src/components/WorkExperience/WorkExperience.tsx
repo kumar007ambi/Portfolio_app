@@ -28,7 +28,7 @@ const workExperiences = {
 export function WorkExperience () {
   return (
     <>
-      <div className="flex justify-evenly ">
+      <div id="workexperience" className="flex justify-evenly h-[500px]">
         {workExperiences.experience.map((item, i) => {
           return (
             <div key={i} className="p-6 m-2 shadow-slate-950">

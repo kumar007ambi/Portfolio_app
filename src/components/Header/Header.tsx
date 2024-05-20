@@ -4,7 +4,7 @@ import { HashLink, NavHashLink } from "react-router-hash-link";
 
 export function Header() {
   return (
-    <nav className="flex bg-cyan-700 h-24 justify-between sticky top-0">
+    <nav className="flex bg-cyan-700 h-20 justify-between sticky top-0">
       <Router>
         <HashLink
           smooth
