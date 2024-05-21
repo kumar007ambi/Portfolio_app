@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     --green: #23ce6b;
     --blue: #016fb9;
     scroll-padding-top: 10rem;
-
+    
     &.light{
 
       body{
@@ -23,6 +23,8 @@ export const GlobalStyle = createGlobalStyle`
       header.header-fixed{
         transition: 0.5s;
         background-color: #f5f5f550;
+        font-family: "Red Hat Display", sans-serif;
+        font-weight: bold;
         a{
           transition: 0.5s;
           color: black;

@@ -6,7 +6,14 @@ import { Projects } from "../Projects/Projects";
 import { OpenSource } from "../OpenSource/OpenSource";
 import { ContactMe } from "../Contact/ContactMe";
 import { Greetings } from "../Greetings/Greetings";
-
+import bootstrapIcon from "../assets/svgImages/bootstrap-icon.svg";
+import cssIcon from "../assets/svgImages/css-icon.svg";
+import reactIcon from "../assets/svgImages/react-icon.svg";
+import nodeIcon from "../assets/svgImages/node-icon.svg";
+import jsIcon from "../assets/svgImages/js-icon.svg";
+import htmlIcon from "../assets/svgImages/html-icon.svg";
+import mysqlIcon from "../assets/svgImages/mysql-icon.svg";
+import vscodeIcon from "../assets/svgImages/vscode-icon.svg"
 
 export function Main() {
   return (
@@ -141,22 +148,12 @@ export function Main() {
               },
               "image": [
                 {
-                  "src": boostrapIcon,
+                  "src": bootstrapIcon,
                   "width": 20,
                   "height": 20
                 },
                 {
                   "src": cssIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": wordpress,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": shopify,
                   "width": 20,
                   "height": 20
                 },
@@ -170,11 +167,11 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": mysqlIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
+                {
+                  "src": mysqlIcon,
+                  "width": 20,
+                  "height": 20
+                },
                 {
                   "src": nodeIcon,
                   "width": 20,
@@ -186,26 +183,10 @@ export function Main() {
                   "height": 20
                 },
                 {
-                  "src": sassIcon,
+                  "src": vscodeIcon,
                   "width": 20,
                   "height": 20
                 },
-                {
-                  "src": typescriptIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                // {
-                //   "src": vscodeIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
-                {
-                  "src": vueIcon,
-                  "width": 20,
-                  "height": 20
-                },
-
               ],
               "polygon": {
                 "sides": 5
@@ -247,12 +228,12 @@ export function Main() {
           }
         }}
       />
-      <Greetings></Greetings>
+      {/* <Greetings></Greetings>
       <Skills></Skills>
       <WorkExperience></WorkExperience>
       <Projects></Projects>
       <OpenSource></OpenSource>
-      <ContactMe></ContactMe>
+      <ContactMe></ContactMe> */}
     </Container>
      
 
