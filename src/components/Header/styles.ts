@@ -106,7 +106,7 @@ export const Container = styled.header`
     text-indent: -9999px;
     width: 55px;
     height: 30px;
-    background: var(--green);
+    background: brown;
     display: block;
     justify-content: center;
     align-items: center;
@@ -126,7 +126,7 @@ export const Container = styled.header`
 
   label:after {
     content: '';
-    background: #FFF;
+    background: green;
     width: 20px;
     height: 20px;
     -webkit-border-radius: 50%;
@@ -139,7 +139,8 @@ export const Container = styled.header`
   }
 
   input:checked + label {
-   background-color: black;
+   background-color: green;
+   
   }
 
   input:checked + label:after {
@@ -149,7 +150,7 @@ export const Container = styled.header`
     -ms-transform: translateX(-100%);
     -o-transform: translateX(-100%);
     transform: translateX(-100%);
-    background-color: brown;
+    background-color: black;
   }
 
   @media (max-width: 960px){
