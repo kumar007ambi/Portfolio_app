@@ -38,6 +38,11 @@ export function Home() {
             <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
           </BrowserRouter>
         </ScrollAnimation>
+         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+          <BrowserRouter>
+            <NavHashLink smooth to="#contact" className="button">Resume</NavHashLink>
+          </BrowserRouter>
+        </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
       <div className="social-media"><a
         href="https://www.linkedin.com/in/codevinayak"
