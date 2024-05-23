@@ -8,9 +8,8 @@ import { Container } from "./styles"
 import { BrowserRouter } from "react-router-dom"
 import { NavHashLink } from "react-router-hash-link"
 import linkedin from "../assets/svgImages/linkedin.svg"
-import whatsapp from "../assets/svgImages/phone-icon.svg"
 import Hello from "../assets/svgImages/Hello.gif"
-// import Illustration from "../assets/svgImages/vscode-icon.svg"
+import github from "../assets/svgImages/github.svg"
 
 
 
@@ -35,43 +34,26 @@ export function Home() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
-            <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
-          </BrowserRouter>
-        </ScrollAnimation>
-         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
-          <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">Resume</NavHashLink>
           </BrowserRouter>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
       <div className="social-media"><a
-        href="https://www.linkedin.com/in/codevinayak"
+        href="https://www.linkedin.com/in/connect-with-ambika/"
         target="_blank"
         rel="noreferrer"
       >
         <img src={linkedin} alt="Linkedin" />
       </a>
         <a
-          href="https://github.com/CodeVinayak/"
+          href="https://github.com/kumar007ambi"
           target="_blank"
           rel="noreferrer"
         >
-          {/* <img src={githubIcon} alt="GitHub" /> */}
+          <img src={github} alt="GitHub" />
         </a>
-        <a
-          href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={whatsapp} alt="Whatsapp" />
-        </a>
-        <a
-          href="https://t.me/CodeVinayak"
-          target="_blank"
-          rel="noreferrer"
-        >
-        
-        </a></div>
+    
+        </div>
         </ScrollAnimation>
       </div>
       <div className="hero-image">
