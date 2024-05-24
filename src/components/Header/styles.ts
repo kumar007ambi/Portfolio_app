@@ -6,8 +6,8 @@ export const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 1.8rem 10rem;
-    font-family: 'Red Hat Display', sans-serif;
-      font-weight: 500;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
   background-color: #21212150;
   
   backdrop-filter: blur(6px);
@@ -15,7 +15,7 @@ export const Container = styled.header`
   position: fixed;
   top: 0;
   left: -80px;
-  width: 90vw;
+  width: 105vw;
   z-index: 1000;
   .logo{
      font-size: 2rem;
@@ -29,7 +29,7 @@ export const Container = styled.header`
       color: #FFFF;
       padding: 0.6rem;
     
-      text-transform: uppercase;
+      //text-transform: uppercase;
       transition: filter 0.25s;
 
       &.button{

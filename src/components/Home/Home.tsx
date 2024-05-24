@@ -19,7 +19,7 @@ export function Home() {
     <Container id="home">
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
-          <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
+          <h4>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</h4>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
           <h2>Ambika Kumar Kewat</h2>
