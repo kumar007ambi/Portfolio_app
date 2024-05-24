@@ -45,7 +45,7 @@ export const Container = styled.section`
   
   
 
-  .about-image{
+  .skills-image{
     text-align: center;
    img{
      margin-top: 2rem;
@@ -59,17 +59,17 @@ export const Container = styled.section`
   }
 
   @media only screen and (max-width: 480px) {
-    .about-image {
+    .skills-image {
       max-width: 100%;
       margin-top: 4rem;
-      img{
-        margin-top: 2rem;
-        width: 100%;
-        filter: grayscale(0);
-        transition: filter 0.5s;
-        &:hover{
-          filter: grayscale(0);
-        }
+      // img{
+      //   margin-top: 2rem;
+      //   width: 100%;
+      //   filter: grayscale(0);
+      //   transition: filter 0.5s;
+      //   &:hover{
+      //     filter: grayscale(0);
+      //   }
     }
   }
 
@@ -80,17 +80,17 @@ export const Container = styled.section`
     .hard-skills{
       justify-content: center;
     }
-    .about-image{
+    .skills-image{
       display: flex;
       max-width: 100%;
-      img{
-        margin-top: 2rem;
-        width: 100%;
-        filter: grayscale(0);
-        transition: filter 0.5s;
-        &:hover{
-          filter: grayscale(0);
-        }
+      // img{
+      //   margin-top: 2rem;
+      //   width: 100%;
+      //   filter: grayscale(0);
+      //   transition: filter 0.5s;
+      //   &:hover{
+      //     filter: grayscale(0);
+      //   }
     }
     
     
