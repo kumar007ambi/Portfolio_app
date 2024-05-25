@@ -233,7 +233,7 @@ export function Main() {
       <WorkExperience></WorkExperience>
       <Projects></Projects>
       <OpenSource></OpenSource>
-      <ContactMe></ContactMe>
+      {/* <ContactMe></ContactMe> */}
     </Container>
      
 

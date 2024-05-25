@@ -58,7 +58,7 @@ export const Container = styled.section`
         text-align:center;
         a{
           color: #FFFF;
-          border-bottom: 1px solid var(--green);
+          //border-bottom: 1px solid var(--green);
           transition: color 0.25s;
           &:hover{
             color: var(--green);

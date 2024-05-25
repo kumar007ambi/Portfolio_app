@@ -2,21 +2,23 @@ import styled from "styled-components";
 
 
 export const Container = styled.section`
-  margin-top: 12rem;
+  margin-top: 15rem;
   
   h2{
     text-align: center;
     font-size: 4rem;
-    margin-bottom: 3rem;
+    margin-bottom: 8px;
   }
   .projects{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     grid-template-rows: auto;
-    gap: 2rem;
-    padding: 1rem;
+    gap: 3rem;
+    padding: 2rem;
     overflow: hidden;
-
+    width:1000px;
+    margin: auto;
+    
     .project{
       padding: 2rem 1.8rem;
       background-color: #2b2b2b;
@@ -26,6 +28,7 @@ export const Container = styled.section`
       flex-direction: column;
       height: 100%;
       color: #FFF;
+      
       &:hover{
         transform: translateY(-5px);
         background-color: var(--pink);
@@ -36,7 +39,7 @@ export const Container = styled.section`
         align-items: center;
         justify-content: space-between;
         color: var(--blue);
-        margin-bottom: 20px;
+        margin-bottom: 6px;
         .project-links{
           display: flex;
           align-items: center;

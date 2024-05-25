@@ -1,76 +1,144 @@
-import React from 'react';
-import { Container } from './styles';
+import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
 import github from "../assets/svgImages/github.svg";
-import externalLink from "../assets/svgImages/external-link.svg"
+import externalLink from "../assets/svgImages/external-link.svg";
 
-const projects = {
-  project: [
-    {
-      projectTitle: "Netflix Movie Suggestor",
-      projectlogo: require("../assets/projectImages/Netflix.PNG"),
-      desc: "A movie suggestion app, made with the help of React and TaiwindCSS, for movies geminiAI API is integrated for suggestion and login Firebase is used.",
-    },
-    {
-      projectTitle: "Shortest Path Finder",
-      projectlogo: require("../assets/projectImages/Dijkstra.PNG"),
-      desc: "Shortest Path Finder with the help if Dijkstra's algorithm, made it with the help of react library,used noramal css for styling and normal js functions.",
-    },
-    {
-      projectTitle: "Swiggy Clone",
-      projectlogo: require("../assets/projectImages/Swiggy.PNG"),
-      desc: "Swiggy clone with the help of Live API of Swiggy food delivering App. React,TailwindCSS and redxutoolkit is used to build this project.",
-    },
-  ],
-};
+// const projects = {
+//   project: [
+//     {
+//       projectTitle: "Netflix Movie Suggestor",
+//       projectlogo: require("../assets/projectImages/Netflix.PNG"),
+//       desc: "A movie suggestion app, made with the help of React and TaiwindCSS, for movies geminiAI API is integrated for suggestion and login Firebase is used.",
+//     },
+//     {
+//       projectTitle: "Shortest Path Finder",
+//       projectlogo: require("../assets/projectImages/Dijkstra.PNG"),
+//       desc: "Shortest Path Finder with the help if Dijkstra's algorithm, made it with the help of react library,used noramal css for styling and normal js functions.",
+//     },
+//     {
+//       projectTitle: "Swiggy Clone",
+//       projectlogo: require("../assets/projectImages/Swiggy.PNG"),
+//       desc: "Swiggy clone with the help of Live API of Swiggy food delivering App. React,TailwindCSS and redxutoolkit is used to build this project.",
+//     },
+//   ],
+// };
 
-export function Projects () {
+export function Projects() {
   return (
-   <Container id="project">
+    <Container id="project">
       <h2>My Projects</h2>
       <div className="projects">
-
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                {" "}
+                <title>Folder</title>{" "}
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
+              </svg>
               <div className="project-links">
-                <a href="https://github.com/kumar007ambi/netflix_gpt" target="_blank" rel="noreferrer">
-                  <img src={github} alt="Visit site" /></a>
-                <a href="https://github.com/kumar007ambi/netflix_gpt" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/kumar007ambi/netflix_gpt"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={github} alt="Visit site" />
+                </a>
+                <a
+                  href="https://github.com/kumar007ambi/netflix_gpt"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={externalLink} alt="Visit site" />
-                </a> </div>
+                </a>{" "}
+              </div>
             </header>
             <div className="body">
               <h3>Netflix‑MovieSuggestor</h3>
-              <p>Developed a Full‑Stack Web Application with the help of Tailwind CSS for rapid UI development. </p>
+              <p style={{display : "flex",justifyContent:"center"}}>
+                {" "}
+                <img
+                  src={require("../assets/projectImages/Netflix.PNG")}
+                  alt="Netflix_GPT"
+                />
+              </p>
+              <p>
+                Developed a Full‑Stack Web Application with the help of Tailwind
+                CSS for rapid UI development.{" "}
+              </p>
             </div>
-            <footer> <ul className="tech-list"> <li>ReactJS</li> <li>GeminiAI</li> <li>Firebase</li> </ul> </footer>
+            <footer>
+              {" "}
+              <ul className="tech-list">
+                {" "}
+                <li>ReactJS</li> <li>GeminiAI</li> <li>Firebase</li><li>TailwindCSS</li>
+              </ul>{" "}
+            </footer>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <title>Folder</title>{" "}
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
+              </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/AI-Chatbot-Assistant" target="_blank" rel="noreferrer">
-                  <img src={github} alt="Visit site" /> </a>
-                <a href="https://ai-chatbot-t8fn.onrender.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" /></a>
+                <a
+                  href="https://github.com/kumar007ambi/shortest_path_finder"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={github} alt="Visit site" />{" "}
+                </a>
+                <a
+                  href="https://github.com/kumar007ambi/shortest_path_finder"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={externalLink} alt="Visit site" />
+                </a>
               </div>
             </header>
             <div className="body">
-              <h3>GeniusBot: AI-Powered Assistance with PDF Insight</h3>
+              <h3>Shortest Path Finder</h3>
+              <p style={{display : "flex",justifyContent:"center"}}>
+                {" "}
+                <img
+                  src={require("../assets/projectImages/Dijkstra.PNG")}
+                  alt="Netflix_GPT"
+                />
+              </p>
               <p>
-                Developed an interactive chatbot application using Streamlit, OpenAI's GPT-3.5-turbo language model, and PyPDF2 for PDF text extraction, enabling users to ask context-based questions on uploaded PDFs and general queries.
+                 Developed a shortest path visualizer using Dijkstra’s algorithm
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Streamlit</li>
-                <li>PyPDF2</li>
-                <li>LangChain</li>
+                <li>ReatcJS</li>
+                <li>Dijkstra’s algorithm</li>
+                <li>Smooth Animation</li>
               </ul>
             </footer>
           </div>
@@ -79,39 +147,64 @@ export function Projects () {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
                 <title>Folder</title>
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
               <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis" target="\_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/kumar007ambi/Swiggy_clone"
+                  target="\_blank"
+                  rel="noreferrer"
+                >
                   <img src={github} alt="Visit site" />
                 </a>
-                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb" target="\_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/kumar007ambi/Swiggy_clone"
+                  target="\_blank"
+                  rel="noreferrer"
+                >
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Credit Risk Analysis Project</h3>
+              <h3>Swiggy‑Clone</h3>
+              <p style={{display : "flex",justifyContent:"center",borderRadius:"10px"}}>
+                {" "}
+                <img
+                  src={require("../assets/projectImages/Swiggy.PNG")}
+                  alt="Netflix_GPT"
+                />
+              </p>
               <p>
-                Developed a highly accurate credit risk classification model using XGBoost, achieving 100% precision, recall, and F1-scores for predicting loan defaults.Implemented rigorous data preprocessing, feature engineering, and hyperparameter tuning on imbalanced credit risk data, employing ensemble methods, cross-validation, and model interpretation techniques.
+                Swiggy Clone with the help of Swiggy Live API.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>XGBoost</li>
-                <li>Pandas</li>
-                <li>Matplotlib</li>
+                <li>ReactJS</li>
+                <li>Swiggy Live API</li>
+                <li>TailwindCSS</li>
+                <li>Redux Toolkit</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
-        </div>
+      </div>
     </Container>
-  )
+  );
 }
-
 
 //  <>
 //       <div id="projects" className="flex justify-evenly h-[500px]">
