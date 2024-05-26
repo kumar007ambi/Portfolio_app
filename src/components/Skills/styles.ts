@@ -26,7 +26,6 @@ export const Container = styled.section`
   h2{
     display: inline-block;
     margin-bottom: 2rem;
-    // border-bottom: 0.2rem solid var(--blue);
     font-size :3rem;
     margin-top: 0rem;
     color: var(--green);
@@ -43,11 +42,9 @@ export const Container = styled.section`
     font-weight: 500;
   }
   
-  
-
   .skills-image{
     text-align: center;
-   img{
+    img{
      margin-top: 2rem;
      width: 75%;
      filter: grayscale(0);
@@ -92,8 +89,6 @@ export const Container = styled.section`
       //     filter: grayscale(0);
       //   }
     }
-    
-    
-  }
+}
 
 `

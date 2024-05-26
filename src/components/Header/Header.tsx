@@ -43,9 +43,6 @@ export function Header() {
           <NavHashLink smooth to="#opensource" onClick={closeMenu}>
             Open Source
           </NavHashLink>
-          {/* <a href={Resume} download className="button">
-            Resume
-          </a> */}
         </nav>
         <div
           aria-expanded={isActive ? 'true' : 'false'}

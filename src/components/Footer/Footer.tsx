@@ -2,7 +2,6 @@ import { Container } from './styles';
 import reactIcon from '../assets/svgImages/react-icon.svg'
 import linkedin from '../assets/svgImages/linkedin.svg'
 import githubIcon from '../assets/svgImages/github.svg'
-// import gmail from "../assets/svgImages/gmail-svgrepo-com.svg";
 import twitter from "../assets/svgImages/twitter-color-svgrepo-com.svg";
 
 
@@ -11,8 +10,7 @@ export  function Footer() {
     <Container className="footer">
       <div>
         <p>
-          This Website is made with <img src={reactIcon} alt="React" />
-          {/* <span>❤️</span> */}
+          This Portfolio is made with 🚀<img src={reactIcon} alt="React" />
         </p>
       </div>
       <div className="social-media">

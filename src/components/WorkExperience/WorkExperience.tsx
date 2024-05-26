@@ -1,40 +1,13 @@
 import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
-// import github from "../assets/svgImages/github.svg";
-// import externalLink from "../assets/svgImages/external-link.svg";
-
-// const workExperiences = {
-//   experience: [
-//     {
-//       role: "FrontEnd Developer",
-//       company: "Tata Consultancy Services",
-//       companylogo: require("../assets/company/TCS.png"),
-//       date: "Feb 2022 – Present",
-//       desc: " Currently member of Frontend team which deals with a Government Project (Passport Seva) which is maintained by Ministry of External of Affairs.",
-//       descBullets: [
-//         "Implemented new features and enhancements for the client’s web application, ensuring functionality aligned with business requirements which leads to increase app’s performance by 30%.",
-//       ],
-//     },
-//     {
-//       role: "FrontEnd Developer",
-//       company: "WebGen Technologies ",
-//       companylogo: require("../assets/company/WEBGEN.jpg"),
-//       date: "May 2021 – Aug 2021",
-//       desc: "Designed and developed a full‑stack application from scratch, enabling user registration, login, and personalized dashboards. (Keywords: Full‑Stack, application development, user management).",
-//       descBullets: [
-//         "Successfully integrated the Stripe API to streamline the payment process within the application. (Keywords: API integration, Stripe, payment processing).",
-//       ],
-//     },
-//   ],
-// };
 
 export function WorkExperience() {
   return (
     <Container id="workexperience">
       <h2>My Work Experience</h2>
-      <div className="projects">
+      <div className="workexperiences">
         <ScrollAnimation animateIn="flipInX">
-          <div className="project">
+          <div className="workexperience">
             <header style={{ display: "flex", justifyContent: "center" }}>
               <a href="https://www.tcs.com/" target="_blank" rel="noreferrer">
                 <h3>Tata Consultancy Services</h3>
@@ -65,7 +38,7 @@ export function WorkExperience() {
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
-          <div className="project">
+          <div className="workexperience">
             <header style={{ display: "flex", justifyContent: "center" }}>
               <a
                 href="https://www.webgentechnologies.com/"

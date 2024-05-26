@@ -9,7 +9,7 @@ export const Container = styled.section`
     font-size: 4rem;
     margin-bottom: 8px;
   }
-  .projects{
+  .workexperiences{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: auto;
@@ -19,7 +19,7 @@ export const Container = styled.section`
     width:1000px;
     margin: auto;
     
-    .project{
+    .workexperience{
       padding: 2rem 1.8rem;
       background-color: #2b2b2b;
       border-radius: 1.2rem;
@@ -40,11 +40,11 @@ export const Container = styled.section`
         justify-content: space-between;
         color: var(--blue);
         margin-bottom: 6px;
-        .project-links{
-          display: flex;
-          align-items: center;
-          gap: 1rem;
-        }
+        // .workexperience-links{
+        //   display: flex;
+        //   align-items: center;
+        //   gap: 1rem;
+        // }
         a > img {
           width: 5.0rem;
         }
@@ -90,13 +90,14 @@ export const Container = styled.section`
   }
 
   @media (max-width: 960px){
-    .projects{
+    .workexperiences{
       grid-template-columns: 1fr 1fr;
+      width:410px;
     }
   }
 
   @media (max-width: 740px){
-    .projects{
+    .workexperiences{
       grid-template-columns: 1fr;
     }
   }
