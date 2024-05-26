@@ -2,7 +2,8 @@ import { Container } from './styles';
 import reactIcon from '../assets/svgImages/react-icon.svg'
 import linkedin from '../assets/svgImages/linkedin.svg'
 import githubIcon from '../assets/svgImages/github.svg'
-
+// import gmail from "../assets/svgImages/gmail-svgrepo-com.svg";
+import twitter from "../assets/svgImages/twitter-color-svgrepo-com.svg";
 
 
 export  function Footer() {
@@ -10,29 +11,32 @@ export  function Footer() {
     <Container className="footer">
       <div>
         <p>
-          This Website was made with <img src={reactIcon} alt="React" />
+          This Website is made with <img src={reactIcon} alt="React" />
           {/* <span>❤️</span> */}
         </p>
       </div>
       <div className="social-media">
         <a
-          href="https://www.linkedin.com/in/codevinayak"
+          href="https://www.linkedin.com/in/connect-with-ambika/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={linkedin} alt="Linkedin" />
         </a>
         <a
-          href="https://github.com/CodeVinayak/"
+          href="https://github.com/kumar007ambi"
           target="_blank"
           rel="noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
-  
-        
-        
-        
+        <a
+          href="https://x.com/kumarambika007"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={twitter} alt="GitHub" />
+        </a>
       </div>
     </Container>
   )
