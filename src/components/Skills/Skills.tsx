@@ -29,7 +29,7 @@ export function Skills() {
           <p>
             Hi there! I'm Ambika, a Frontend developer with a passion for
             creating custom webapps, With a skill set including HTML, CSS,
-            JavaScript, and React,and other Libraries and Frameworks, I have the
+            JavaScript, React,and other Libraries and Frameworks, I have the
             tools to bring any website vision to life.
           </p>
         </ScrollAnimation>
