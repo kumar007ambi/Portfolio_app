@@ -1,4 +1,4 @@
-import ScrollAnimation from "react-animate-on-scroll";
+import ScrollAnimation from 'react-animate-on-scroll';
 import { Container } from './styles';
 import Lottie from "lottie-react";
 import codingPerson from "../assets/images/codingPerson.json";

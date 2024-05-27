@@ -8,7 +8,7 @@ export const Container = styled.header`
   padding: 1.8rem 10rem;
   font-family: 'Red Hat Display', sans-serif;
   font-weight: 500;
-  background-color: #21212150;
+  background-color: #6e6e6e;
   
   backdrop-filter: blur(6px);
 
@@ -155,12 +155,9 @@ export const Container = styled.header`
 
   @media (max-width: 960px){
     padding: 1.8rem 3rem;
-
     .menu{
       display: block;
-      
     }
-
     nav {
       -ms-overflow-style: none;
       scrollbar-width: none;
@@ -178,16 +175,23 @@ export const Container = styled.header`
       left: 0;
       transition: opacity 0.25s;
       background-color: green;
-
       a.button{
         background-color: var(--pink);
       }
-
       &.active{
         opacity: 1;
         visibility: visible;
       }
     }
+  }
+   @media (max-width: 740px){
+    .nav{
+      width:120vw;
+    }
+    .logo{
+      padding-left:62px;
+    }
+    
   }
   
 `

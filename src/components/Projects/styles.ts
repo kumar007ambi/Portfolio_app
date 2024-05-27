@@ -89,6 +89,7 @@ export const Container = styled.section`
   @media (max-width: 960px){
     .projects{
       grid-template-columns: 1fr 1fr;
+      margin :auto;
     }
   }
 

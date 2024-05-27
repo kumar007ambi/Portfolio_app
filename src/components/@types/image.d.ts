@@ -6,3 +6,4 @@ declare module '*.gif';
 declare module '*.webp';
 declare module '*react-animate-on-scroll'
 declare module '*react-tsparticles'
+declare module '*react-particles'

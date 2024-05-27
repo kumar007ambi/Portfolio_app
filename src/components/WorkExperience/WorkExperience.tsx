@@ -6,11 +6,11 @@ export function WorkExperience() {
     <Container id="workexperience">
       <h2>My Work Experience</h2>
       <div className="workexperiences">
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="flipInY">
           <div className="workexperience">
             <header style={{ display: "flex", justifyContent: "center" }}>
               <a href="https://www.tcs.com/" target="_blank" rel="noreferrer">
-                <h3>Tata Consultancy Services</h3>
+                <h3 style={{color:"white"}}>Tata Consultancy Services</h3>
               </a>
             </header>
             <div className="body">
@@ -37,7 +37,7 @@ export function WorkExperience() {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="flipInY">
           <div className="workexperience">
             <header style={{ display: "flex", justifyContent: "center" }}>
               <a
@@ -45,7 +45,7 @@ export function WorkExperience() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <h3>WebGen Technologies</h3>
+                <h3 style={{color:"white"}}>WebGen Technologies</h3>
               </a>
             </header>
             <div className="body">

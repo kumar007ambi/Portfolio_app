@@ -91,14 +91,15 @@ export const Container = styled.section`
 
   @media (max-width: 960px){
     .workexperiences{
-      grid-template-columns: 1fr 1fr;
-      width:410px;
+      grid-template-columns: 2fr;
+      width:610px;
     }
   }
 
   @media (max-width: 740px){
     .workexperiences{
       grid-template-columns: 1fr;
+      width:410px;
     }
   }
 `
