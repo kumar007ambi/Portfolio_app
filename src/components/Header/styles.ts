@@ -186,7 +186,7 @@ export const Container = styled.header`
   }
    @media (max-width: 740px){
     .nav{
-      width:120vw;
+      width:130vw;
     }
     .logo{
       padding-left:62px;
