@@ -5,6 +5,7 @@ import { Projects } from "../Projects/Projects";
 import { OpenSource } from "../OpenSource/OpenSource";
 import { Home } from "../Home/Home";
 import {Particle} from '../styles/Particle';
+import { Top } from "../ScrollTopToBottom/Top";
 
 export function Main() {
   return (
@@ -15,6 +16,7 @@ export function Main() {
       <WorkExperience></WorkExperience>
       <Projects></Projects>
       <OpenSource></OpenSource>
+      <Top></Top>
     </Container>
   );
 }
