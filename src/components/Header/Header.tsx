@@ -13,7 +13,7 @@ export function Header() {
     setActive(false)
   }
   return (
-    <Container className="header-fixed">
+    <Container className="header-fixed" id="header">
       <Router>
         <HashLink smooth to="#home" className="logo">
           <span >{"<Ambika Kumar "}</span>

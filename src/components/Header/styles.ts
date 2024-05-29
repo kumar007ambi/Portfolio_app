@@ -6,21 +6,17 @@ export const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 1.8rem 10rem;
-  font-family: 'Red Hat Display', sans-serif;
-  font-weight: 500;
-  background-color: #6e6e6e;
+  
+  background-color: #21212150;
   
   backdrop-filter: blur(6px);
 
   position: fixed;
   top: 0;
-  left: -80px;
-  width: 105vw;
+  left: 0;
+  width: 100vw;
   z-index: 1000;
-  .logo{
-     font-size: 2rem;
-     text-decoration: none;
-  }
+
   nav{
     display: flex;
     align-items: center;
@@ -28,8 +24,9 @@ export const Container = styled.header`
     a{
       color: #FFFF;
       padding: 0.6rem;
-    
-      //text-transform: uppercase;
+      font-family: 'Red Hat Display', sans-serif;
+      font-weight: 500;
+      
       transition: filter 0.25s;
 
       &.button{
@@ -43,7 +40,6 @@ export const Container = styled.header`
 
   }
 
- 
   .menu-container{
     cursor: pointer;
     padding: 0.6rem 0;
@@ -98,7 +94,6 @@ export const Container = styled.header`
     width: 0;
     visibility: hidden;
     outline: none;
-    
   }
 
   label {
@@ -106,7 +101,7 @@ export const Container = styled.header`
     text-indent: -9999px;
     width: 55px;
     height: 30px;
-    background: brown;
+    background: var(--green);
     display: block;
     justify-content: center;
     align-items: center;
@@ -126,7 +121,7 @@ export const Container = styled.header`
 
   label:after {
     content: '';
-    background: green;
+    background: #FFF;
     width: 20px;
     height: 20px;
     -webkit-border-radius: 50%;
@@ -139,8 +134,7 @@ export const Container = styled.header`
   }
 
   input:checked + label {
-   background-color: green;
-   
+    background: var(--pink);
   }
 
   input:checked + label:after {
@@ -150,14 +144,15 @@ export const Container = styled.header`
     -ms-transform: translateX(-100%);
     -o-transform: translateX(-100%);
     transform: translateX(-100%);
-    background-color: black;
   }
 
   @media (max-width: 960px){
     padding: 1.8rem 3rem;
+
     .menu{
       display: block;
     }
+
     nav {
       -ms-overflow-style: none;
       scrollbar-width: none;
@@ -168,30 +163,23 @@ export const Container = styled.header`
       justify-content: center;
       align-items: center;
       position: fixed;
-      width: 120vw;
+      width: 100vw;
       height: 100vh;
       background: var(--blue);
       top: 0;
       left: 0;
       transition: opacity 0.25s;
-      background-color: green;
+      background-color: var(--green);
+
       a.button{
         background-color: var(--pink);
       }
+
       &.active{
         opacity: 1;
         visibility: visible;
       }
     }
-  }
-   @media (max-width: 740px){
-    .nav{
-      width:130vw;
-    }
-    .logo{
-      padding-left:62px;
-    }
-    
   }
   
 `
