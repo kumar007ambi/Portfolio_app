@@ -16,6 +16,7 @@ export const Container = styled.section`
     gap: 2rem;
     padding: 1rem;
     overflow: hidden;
+   
 
     .project{
       padding: 2rem 1.8rem;
@@ -26,6 +27,7 @@ export const Container = styled.section`
       flex-direction: column;
       height: 100%;
       color: #FFF;
+      width: 320px;
       &:hover{
         transform: translateY(-5px);
         background-color: var(--pink);
