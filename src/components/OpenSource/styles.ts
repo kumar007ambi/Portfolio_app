@@ -89,12 +89,22 @@ export const Container = styled.section`
   @media (max-width: 960px){
     .opensources{
       grid-template-columns: 1fr 1fr;
+     
+    }
+    .opensource{
+      width: 280px;
+       margin:auto;
     }
   }
 
   @media (max-width: 740px){
     .opensources{
       grid-template-columns: 1fr;
+      
+    }
+    .opensource{
+      width: 280px;
+       margin:auto;
     }
   }
 `

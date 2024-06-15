@@ -91,14 +91,18 @@ export const Container = styled.section`
   @media (max-width: 960px){
     .projects{
       grid-template-columns: 1fr 1fr;
-      margin :auto;
+       margin :auto;
+              width: 330px;
+        // margin-left: -22px;
     }
   }
 
   @media (max-width: 740px){
     .projects{
       grid-template-columns: 1fr;
-      margin:auto;
+       margin:auto;
+              width: 330px;
+        // margin-left: -22px;
     }
   }
 `
