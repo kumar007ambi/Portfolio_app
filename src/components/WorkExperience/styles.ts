@@ -32,23 +32,26 @@ export const Container = styled.section`
     .workexperience-right{
     margin-top:30px;
     }
-     .imageL{
-       margin-left: 0px;
-    }
-    .imageR{
-       margin-left: 0px;
+    //  .imageL{
+    //    margin-left: 0px;
+    // }
+    // .imageR{
+    //    margin-left: 0px;
+    // }
+    img{
+    margin-left: -176px;
     }
 }
 
   @media only screen and (max-width: 480px) {
    display: block;
     text-align: center;
-   .imageL{
-     margin-left: 0px;
+   img{
+     margin-left: -176px;
    }
-   .imageR{
-     margin-left: 0px;
-   }
+  //  .imageR{
+  //    margin-left: 0px;
+  //  }
   }
 
   
