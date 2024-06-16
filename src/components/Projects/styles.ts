@@ -92,17 +92,33 @@ export const Container = styled.section`
     .projects{
       grid-template-columns: 1fr 1fr;
        margin :auto;
-              width: 330px;
-        // margin-left: -22px;
     }
+    #div1{
+    width:280px;
+    }
+     #div2{
+    width:280px;
+    }
+     #div3{
+    width:280px;
+    }
+    
   }
 
   @media (max-width: 740px){
     .projects{
       grid-template-columns: 1fr;
-       margin:auto;
-              width: 330px;
-        // margin-left: -22px;
+       margin: 12px;
     }
+     #div1{
+    width:280px;
+    }
+     #div2{
+    width:280px;
+    }
+     #div3{
+    width:280px;
+    }
+   
   }
 `

@@ -9,7 +9,7 @@ export function Projects() {
       <h2>My Projects</h2>
       <div className="projects">
        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
+          <div className="project" id="div1">
             <header>
               <svg
                 width="50"
@@ -62,14 +62,14 @@ export function Projects() {
               <ul className="tech-list">
                 {" "}
                 <li>ReactJS</li> <li>GeminiAI</li> <li>Firebase</li>
-                <li>TailwindCSS</li>
+              
               </ul>{" "}
             </footer>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
-          <div className="project">
+          <div className="project" id="div2">
             <header>
               <svg
                 width="50"
@@ -126,7 +126,7 @@ export function Projects() {
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
-          <div className="project">
+          <div className="project" id="div3">
             <header>
               <svg
                 width="50"
@@ -180,7 +180,6 @@ export function Projects() {
               <ul className="tech-list">
                 <li>ReactJS</li>
                 <li>Swiggy Live API</li>
-                <li>TailwindCSS</li>
                 <li>Redux Toolkit</li>
               </ul>
             </footer>
