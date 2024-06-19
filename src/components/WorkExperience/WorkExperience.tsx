@@ -6,27 +6,34 @@ export function WorkExperience() {
     <Container id="workexperience">
       <div className="workexperience-left">
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
-          <div className="imageL" style={{ height: "100%", width: "100%" ,marginLeft: "88px" }}>
-            <img  src={require("../assets/company/TCS.png")} alt="TCS" />
+          <div
+            className="imageL"
+            style={{ height: "100%", width: "100%", marginLeft: "88px" }}
+          >
+            <img src={require("../assets/company/TCS.png")} alt="TCS" />
           </div>
           <div className="work-text">
-            <p >
+            <p>
               Currently member of Frontend team which deals with a Government
               Project (Passport Seva) which is maintained by Ministry of
               External of Affairs.
             </p>
-            <p style={{marginTop:"20px"}}>
-              Implemented new features and enhancements for the client’s web
-              application, ensuring functionality aligned with business
-              requirements which leads to increase app’s performance by 30%.
+            <p style={{ marginTop: "20px" }}>
+              Begins international interaction with Alcoa corporation, worked on
+              a client's app. Implemented new features and enhancements for the
+              client's web application,by using ReactJs, bootstrap, and redux
+              toolkit.
             </p>
           </div>
         </ScrollAnimation>
       </div>
       <div className="workexperience-right">
         <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          <div className="imageR" style={{ height: "100%", width: "100%" ,marginLeft: "88px" }}>
-            <img  src={require("../assets/company/WEBGEN.jpg")} alt="WEBGEN" />
+          <div
+            className="imageR"
+            style={{ height: "100%", width: "100%", marginLeft: "88px" }}
+          >
+            <img src={require("../assets/company/WEBGEN.jpg")} alt="WEBGEN" />
           </div>
           <div className="work-text">
             <p>
@@ -34,7 +41,7 @@ export function WorkExperience() {
               enabling user registration, login, and personalized dashboards.
               (Keywords: Full‑Stack, application development, user management).
             </p>
-            <p  style={{marginTop:"20px"}}>
+            <p style={{ marginTop: "20px" }}>
               Successfully integrated the Stripe API to streamline the payment
               process within the application. (Keywords: API integration,
               Stripe, payment processing).
