@@ -25,11 +25,11 @@ export function Home() {
           </h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
-          <p className="small-resume">2.5 Years of Experience</p>
+          <p className="small-resume">3 Years of Experience</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.8 * 1000}>
           <a
-            href="https://drive.google.com/file/d/1xHA8SwYfg_4bWQ5wOiIN1tjTpUr0zJf4/view?usp=sharing"
+            href="https://drive.google.com/file/d/1IR9paEtC8qq_1taatj-3o3ErfuYOFG-p/view?usp=sharing"
             className="button"
             target="_blank"
             rel="noreferrer"
