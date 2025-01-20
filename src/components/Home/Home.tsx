@@ -40,7 +40,7 @@ export function Home() {
         <ScrollAnimation animateIn="fadeInLeft" delay={1 * 1000}>
           <div className="social-media">
             <a
-              href="https://www.linkedin.com/in/connect-with-ambika/"
+              href="https://www.linkedin.com/in/ambikakumarkewat/"
               target="_blank"
               rel="noreferrer"
             >
