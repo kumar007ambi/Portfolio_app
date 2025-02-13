@@ -33,7 +33,7 @@ export  function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={twitter} alt="GitHub" />
+          <img src={twitter} alt="twitter" />
         </a>
       </div>
     </Container>
