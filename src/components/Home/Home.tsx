@@ -25,7 +25,7 @@ export function Home() {
           </h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
-          <p className="small-resume">3+ Years of Experience</p>
+          <p className="small-resume">3.5+ Years of Experience</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.8 * 1000}>
           <a
