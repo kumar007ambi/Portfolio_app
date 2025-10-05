@@ -8,11 +8,11 @@ export function WorkExperience() {
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
           <div
             className="imageL"
-            style={{ height: "100%", width: "100%", marginLeft: "88px" }}
+            style={{ height: "100%", width: "100%", marginLeft: "0px" }}
           >
             <img src={require("../assets/company/TCS.png")} alt="TCS" />
           </div>
-          <div className="work-text">
+          {/* <div className="work-text">
             <p>
               Currently member of Frontend team which deals with a Government
               Project (Passport Seva) which is maintained by Ministry of
@@ -24,12 +24,12 @@ export function WorkExperience() {
               client's web application,by using ReactJs, bootstrap, and redux
               toolkit.
             </p>
-          </div>
+          </div> */}
         </ScrollAnimation>
       </div>
       <div className="workexperience-right">
         <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          <div
+          {/* <div
             className="imageR"
             style={{ height: "100%", width: "100%", marginLeft: "88px" }}
           >
@@ -45,6 +45,41 @@ export function WorkExperience() {
               Successfully integrated the Stripe API to streamline the payment
               process within the application. (Keywords: API integration,
               Stripe, payment processing).
+            </p>
+          </div> */}
+          {/* <div className="work-text">
+            <p>
+              Currently member of Frontend team which deals with a Government
+              Project (Passport Seva) which is maintained by Ministry of
+              External of Affairs.
+            </p>
+            <p style={{ marginTop: "20px" }}>
+              Begins international interaction with Alcoa corporation, worked on
+              a client's app. Implemented new features and enhancements for the
+              client's web application,by using ReactJs, bootstrap, and redux
+              toolkit.
+            </p>
+          </div> */}
+
+          <div className="work-text">
+            <p>
+              Working on Government e Marketplace (GeM) project, utilizing
+              Microfrontend architecture, Redux, and Material UI shared library
+              for scalable and maintainable frontend development.
+            </p>
+
+            <p style={{ marginTop: "20px" }}>
+              Successfully delivered the Government Passport Seva project to the
+              Ministry of External Affairs, using ReactJS and react-hook-form
+              for robust frontend development. The project is now deployed and
+              used globally by government agencies.
+            </p>
+
+            <p style={{ marginTop: "20px" }}>
+              Begins international interaction with Alcoa corporation, worked on
+              a client's app. Implemented new features and enhancements for the
+              client's web application, by using ReactJs, bootstrap, and redux
+              toolkit.
             </p>
           </div>
         </ScrollAnimation>
