@@ -29,7 +29,7 @@ export function Home() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.8 * 1000}>
           <a
-            href="https://drive.google.com/file/d/1Atpg0qyzLr8jy_WlI-onHHxk3977vIVB/view?usp=sharing"
+            href="https://drive.google.com/file/d/1IDfX_XEVYnOhzfQnSnpHNUn5lAQBgGP3/view"
             className="button"
             target="_blank"
             rel="noreferrer"
